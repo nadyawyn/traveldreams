@@ -1,0 +1,17 @@
+@import "libs/normalize";
+@import "libs/fonts";
+@import "libs/animate";
+@import "base/mixins";
+@import "base/variables";
+@import "base/anim";
+
+* {
+	box-sizing: border-box;
+}
+.container {
+	margin: 0 auto;
+	width: 1170px;
+
+}
+
+@import "blocks/header";

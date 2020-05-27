@@ -1,0 +1,145 @@
+.header {
+	height: 1000px;
+	width: 100%;
+
+	color: #ffffff;
+
+	padding-top: 64px;
+
+	a {
+		color: #ffffff;
+	}	
+
+	background: url(../img/header_bg.jpg) center (center/cover) no-repeat;
+
+	&__topline {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 50px;
+
+		padding: 18px 0;
+		border-bottom: 1px solid rgba($color_yellow, $alpha: .4);
+
+		background-image: url(../img/header_bg.jpg);
+		background-repeat: no-repeat;
+		background-position: top 0 center;
+
+	}
+
+	&__wrapper {
+		display: flex;
+		flex-flow: row nowrap;
+
+		justify-content: space-between;
+	}
+	&__social {
+		@include reset-list;
+		display: flex;
+		flex-flow: row nowrap;
+
+	}
+	&__social-icon {
+		display: block;
+		width: 12px;
+		height: 12px;
+
+		margin-right: 28px;
+		
+	}
+	.icon_facebook {
+		background: url(../icons/facebook.svg) center (center/cover) no-repeat;
+	}
+	.icon_pinterest {
+		background: url(../icons/pinterest.svg) center (center/cover) no-repeat;
+	}
+	.icon_instagram {
+		background: url(../icons/instagram.svg) center (center/cover) no-repeat;
+	}
+	.icon_twitter {
+		background: url(../icons/twitter.svg) center (center/cover) no-repeat;
+	}
+	.icon_googleplus {
+		background: url(../icons/googleplus.svg) center (center/cover) no-repeat;
+	}
+
+	&__user-menu {
+		display: flex;
+		flex-flow: row nowrap;
+	}
+
+	&__address {
+		font-style: normal;
+		padding-right: 90px;
+		span {
+			padding-right: 24px;
+			position: relative;
+		}
+		span::before {
+			content: "";
+			position: absolute;
+			display: block;
+			width: 13px;
+			height: 18px;
+			background: url(../icons/location.svg) center (center/cover) no-repeat;
+			top: 0;
+			left: -25px;
+		}
+	}
+	&__login {
+		margin-top: -4px;
+		a {
+			text-transform: uppercase;
+			text-decoration: none;
+
+			display: inline-block;
+
+			padding: 5px 11px;
+		}
+
+		.login {
+			border-right: 1px solid $color_yellow;
+		}
+		.register {
+			margin-left: -4px;
+			padding-right: 0;
+		}
+	}
+
+	&__logo {
+		display: block;
+		height: 60px;
+		width: 175px;
+		background: url(../icons/logo.png) center (center/cover) no-repeat;
+	}
+
+	&__nav {
+		width: 450px;
+		height: 60px;
+
+		ul {
+			@include reset-list;
+			height: 100%;
+			width: 100%;
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: space-between;
+		}
+		&-item {
+			display: block;
+			padding: 15px 25px;
+
+			text-decoration: none;
+			text-transform: uppercase;
+
+			&:nth-child(1) {
+				padding-left: 0;
+			}
+			&:last-child {
+				padding-right: 0;
+			}
+		}
+	}
+	
+}

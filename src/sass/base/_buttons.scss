@@ -1,0 +1,16 @@
+.button {
+	display: block;
+	width: 140px;
+	height: 40px;
+	border-radius: 4px;
+	border: none;
+	
+	background-color: $color_yellow;
+
+	color:#ffffff;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 12px;
+}

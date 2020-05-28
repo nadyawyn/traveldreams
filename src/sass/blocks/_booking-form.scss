@@ -82,17 +82,9 @@
 		}
 
 		button {
-			font-size: 13px;
-			color: #ffffff;
-			text-transform: uppercase;
-
-			background-color: $color_yellow;
-			height: 40px;
 			width: 110px;
+			padding-top: 4px;
 			transform: rotate(90deg);
-
-			border: none;
-
 			position: absolute;
 			right: -35px;
 			top: 20px;

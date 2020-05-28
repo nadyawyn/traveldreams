@@ -5,6 +5,7 @@
 @import "base/variables";
 @import "base/anim";
 @import "base/rating";
+@import "base/buttons";
 
 * {
 	box-sizing: border-box;
@@ -31,3 +32,4 @@
 @import "blocks/slider";
 @import "blocks/most-popular";
 @import "blocks/honeymoon";
+@import "blocks/packages";

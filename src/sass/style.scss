@@ -25,6 +25,9 @@
 	margin: 0 auto;
 	text-align: center;
 	margin-top: 47px;
+	font-size: 16px;
+	color: #333333;
+	line-height: 24px;
 }
 
 @import "blocks/header";
@@ -33,3 +36,4 @@
 @import "blocks/most-popular";
 @import "blocks/honeymoon";
 @import "blocks/packages";
+@import "blocks/discount";

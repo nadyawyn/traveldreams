@@ -1,0 +1,23 @@
+.rating {
+	span {
+		display: inline-block;
+		height: 14px;
+	}
+	&__stars_full {
+		background-image: url(../../icons/star-full.svg);
+		background-repeat: repeat-x;
+		background-size: 25%;
+	}
+	&__stars_empty {
+		background-image: url(../../icons/star-empty.svg);
+		background-repeat: repeat-x;
+		background-size: 100%;
+		margin-left: -4px;
+	}
+	&__stars_count_1 {
+		width: calc(14px * 1);
+	}
+	&__stars_count_4 {
+		width: calc(14px * 4);
+	}
+}

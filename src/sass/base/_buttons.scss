@@ -13,4 +13,44 @@
 	text-decoration: none;
 	text-align: center;
 	padding-top: 12px;
+
+	&_rounded {
+		display: block;
+		margin-top: 53px;
+		border-radius: 20px;
+		width: 175px;
+		height: 45px;
+		padding: 14px 0;
+		text-align: center;
+
+		color: $color_yellow;
+		font-size: 14px;
+		text-decoration: none;
+		text-transform: uppercase;
+		&_wb {
+			border: 1px solid #ffffff;
+		}
+		&_yb {
+			border: 1px solid $color_yellow;
+		}
+
+		&_arrow {
+			padding-left: 30px;
+			position: relative;
+
+			&::before {
+				content: "";
+				display: inline-block;
+				width: 30px;
+				height: 16px;
+
+				position: absolute;
+				left: 30px;
+				top: 14px;
+
+
+				background: url(../icons/arrow-right.svg) center (center/cover) no-repeat;
+			}
+		}
+	}
 }

@@ -1,0 +1,12 @@
+.subscribe {
+	position: relative;
+	padding-top: 270px;
+
+	&__block {
+		width: 100%;
+		height: 500px;
+
+		background: url(../img/subscribe_bg.jpg) center (center/cover) no-repeat;
+
+	}
+}

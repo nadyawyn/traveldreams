@@ -13,5 +13,20 @@
 	width: 1170px;
 
 }
+.title {
+	text-align: center;
+	font-size: 30px;
+}
+
+.desc {
+	width: 660px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 47px;
+}
 
 @import "blocks/header";
+@import "blocks/booking-form";
+@import "blocks/slider";
+@import "blocks/most-popular";
+@import "blocks/honeymoon";

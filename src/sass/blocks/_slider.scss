@@ -1,0 +1,14 @@
+.slider {
+	padding-top: 120px;
+
+	&__subtitle {
+		font-size: 14px;
+		color: $color_yellow;
+		text-transform: uppercase;
+	}
+	&__title {
+		font-size: 30px;
+		color: #333333;
+		text-transform: uppercase;
+	}
+}

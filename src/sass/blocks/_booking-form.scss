@@ -1,0 +1,118 @@
+.booking-form {
+	margin-top: -45px;
+	&__tabs {
+		@include reset-list;
+		display: flex;
+		flex-flow: row nowrap;
+
+		&::before {
+			content: "";
+			display: block;
+			width: 26px;
+			background-color: $color_yellow;
+		}
+	}
+	&__tabs-item {
+		display: block;
+		width: 100px;
+		height: 45px;
+		padding-top: 14px;
+
+		text-align: center;
+
+		background: #ffffff;
+
+		color: #333333;
+		font-size: 14px;
+		font-weight: 600;
+		text-transform: uppercase;
+
+		text-decoration: none;
+
+		margin-right: 2px;
+
+		&_yellow {
+			background-color: $color_yellow;
+			color: #ffffff;
+		}
+	}
+	&__form {
+		width: 100%;
+		min-height: 188px;
+		background-color: #ececec;
+		position: relative;
+		padding-left: 70px;
+		padding-top: 55px;
+		&::before {
+			content: "";
+			display: block;
+			width: 26px;
+			height: 188px;
+			background-color: $color_yellow;
+
+			position: absolute;
+			top: 0;
+			left: 0;
+
+		}
+	}
+	&__fields {
+		width: 100%;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+
+		position: relative;
+
+		input {
+			width: 190px;
+			height: 50px;
+
+			border: none;
+
+			color: #c6c5c5;
+
+			padding: 0 30px 0 20px;
+		}
+
+		label {
+			color:#616161;
+			text-transform: uppercase;
+			margin-bottom: 14px;
+		}
+
+		button {
+			font-size: 13px;
+			color: #ffffff;
+			text-transform: uppercase;
+
+			background-color: $color_yellow;
+			height: 40px;
+			width: 110px;
+			transform: rotate(90deg);
+
+			border: none;
+
+			position: absolute;
+			right: -35px;
+			top: 20px;
+
+			cursor: pointer;
+			
+		}
+	}
+	&__fields-wrapper {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+	}
+	&__field-wrapper {
+		display: flex;
+		flex-flow: column nowrap;
+		margin-right: 75px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}

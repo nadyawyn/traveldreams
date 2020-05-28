@@ -12,10 +12,11 @@
 		position: fixed;
 		top: 0;
 		left: 0;
+		z-index: 999;
 		width: 100%;
 		min-height: 50px;
 
-		padding: 18px 0 0 0;
+		padding: 18px 0 16px 0;
 		border-bottom: 1px solid rgba($color_yellow, $alpha: .4);
 
 		background-image: url(../img/header_bg.jpg);
@@ -84,7 +85,7 @@
 		}
 	}
 	&__login {
-		margin-top: -4px;
+		margin-top: -6px;
 		a {
 			color: #ffffff;
 			text-transform: uppercase;

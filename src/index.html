@@ -67,23 +67,85 @@
 
 	</header>
 	<main>
-		123
-		<br>
-		dsfsd
-		<br>
-		123
-		<br>
-		dsfsd
-		<br>
-		123
-		<br>
-		dsfsd
-		<br>
-		123
-		<br>
-		dsfsd
-		<br>
+		<section class="booking-form">
+			<div class="container">
+				<ul class="booking-form__tabs">
+					<li><a href="#" class="booking-form__tabs-item">Hotel</a></li>
+					<li><a href="#" class="booking-form__tabs-item">Tours</a></li>
+					<li><a href="#" class="booking-form__tabs-item booking-form__tabs-item_yellow">Package</a></li>
+				</ul>
+				<div class="booking-form__form">
+					<form id="booking-form" class="booking-form__fields" action="#">
+						<div class="booking-form__fields-wrapper">
+							<div class="booking-form__field-wrapper">
+							<label for="location">Where?</label>
+							<input name="location" placeholder="Choose location" type="text">
+							</div>
+							<div class="booking-form__field-wrapper">
+								<label for="city">Which?</label>
+								<input name="city" placeholder="Choose city">
+							</div>
+							<div class="booking-form__field-wrapper">
+								<label for="checkin">Check in</label>
+								<input name="checkin" placeholder="YY-DD-MM" type="date">
+							</div>
+							<div class="booking-form__field-wrapper">
+								<label for="checkout">Check out</label>
+								<input name="checkout" placeholder="YY-DD-MM" type="date">
+							</div>
+						</div>
+						
+						
+						<button class="button button_submit">Search</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		<section class="slider">
+			<div class="container">
+				<h3 class="slider__subtitle">Popular Tour Packages</h3>
+				<h2 class="slider__title">Popular Place</h2>
+			</div>
 
+		<!-- TODO	ADD SLIDER -->
+			
+		</section>
+		<section class="most-popular">
+			<h3 class="most-popular__subtitle">Popular Place</h3>
+			<h2 class="title most-popular__title">Most Popular Travel Destinations</h2>
+			<div class="desc most-popular__desc">
+				Love travel? Plan and book your perfect trip with expert advice, travel tips, destination information and inspiration from Lonely Planet
+			</div>
+			<div class="most-popular__slider">
+		<!-- TODO ADD SLIDER -->
+			</div>
+
+			<div class="most-popular__overlay">
+				<h3>Grand Switzerland</h3>
+
+			</div>
+		</section>
+		<section class="honeymoon">
+			<h2 class="title">
+				Destinations for Honeymoon 
+			</h2>
+			<div class="desc">
+				Love travel? Plan and book your perfect trip with expert advice, travel tips, destination information and inspiration from Lonely Planet
+			</div>
+			<div class="honeymoon__slider">
+		<!-- TODO ADD SLIDER -->
+				<div class="honeymoon__item honeymoon__item_1">
+					<div class="honeymoon__item-photo">
+
+					</div>
+					<div class="honeymoon__item-desc">
+						<h3>Switzerland</h3>
+					</div>
+					
+				</div>
+			</div>
+	
+		</section>
 	</main>
 </body>
 </html>

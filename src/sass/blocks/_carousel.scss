@@ -45,13 +45,25 @@
 				font-weight: 600;
 			}
 		}
+		&-price {
+			display: none;
+		}
 	}
 }
 .slick-current + div {
 
 	.carousel__item-info {
 		height: 165px;
-		background: rgba($color: $color_yellow, $alpha: .7);
+		background: rgba($color: $color_yellow, $alpha: .8);
+
+		padding-top: 48px;
+	}
+	.carousel__item-price {
+		display: block;
+
+		width: 100%;
+		text-align: center;
+		color: #333333;
 	}
 	
 }

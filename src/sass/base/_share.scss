@@ -10,3 +10,42 @@
 	background: url(../icons/share.png) center (center/contain) no-repeat;
 	background-size: 50%;
 }
+
+.share-yellow {
+	@include reset-list;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+
+	margin: 34px auto;
+
+	&__item {
+		display: block;
+		width: 40px;
+		height: 40px;
+		border: 1px solid $color_yellow;
+
+		a {
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+
+		&_eye {
+			background: url(../icons/yellow/eye.png) center (center/50%) no-repeat;
+		}
+		&_heart {
+			background: url(../icons/yellow/heart.png) center (center/50%) no-repeat;
+		}
+		&_bubble {
+			background: url(../icons/yellow/bubble.png) center (center/50%) no-repeat;
+		}
+		&_share {
+			background: url(../icons/yellow/share.png) center (center/50%) no-repeat;
+		}
+		&_camera {
+			background: url(../icons/yellow/camera.png) center (center/50%) no-repeat;
+		}
+
+	}
+}

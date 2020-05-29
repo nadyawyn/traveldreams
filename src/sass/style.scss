@@ -7,6 +7,7 @@
 @import "base/rating";
 @import "base/buttons";
 @import "base/share";
+@import "base/social";
 
 * {
 	box-sizing: border-box;
@@ -31,6 +32,13 @@
 	line-height: 24px;
 }
 
+.logo {
+	display: block;
+	height: 60px;
+	width: 175px;
+	background: url(../icons/logo.png) center (center/cover) no-repeat;
+}
+
 @import "blocks/header";
 @import "blocks/booking-form";
 @import "blocks/slider";
@@ -42,3 +50,4 @@
 @import "blocks/promo-block";
 @import "blocks/reviews";
 @import "blocks/video-block";
+@import "blocks/footer";

@@ -31,35 +31,7 @@
 
 		justify-content: space-between;
 	}
-	&__social {
-		@include reset-list;
-		display: flex;
-		flex-flow: row nowrap;
-
-	}
-	&__social-icon {
-		display: block;
-		width: 16px;
-		height: 16px;
-
-		margin-right: 28px;
-		
-	}
-	.icon_facebook {
-		background: url(../icons/facebook.svg) center (center/cover) no-repeat;
-	}
-	.icon_pinterest {
-		background: url(../icons/pinterest.svg) center (center/cover) no-repeat;
-	}
-	.icon_instagram {
-		background: url(../icons/instagram.svg) center (center/cover) no-repeat;
-	}
-	.icon_twitter {
-		background: url(../icons/twitter.svg) center (center/cover) no-repeat;
-	}
-	.icon_googleplus {
-		background: url(../icons/googleplus.svg) center (center/cover) no-repeat;
-	}
+	
 
 	&__user-menu {
 		display: flex;

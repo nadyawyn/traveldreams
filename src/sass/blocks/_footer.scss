@@ -1,0 +1,61 @@
+.footer {
+	min-height: 625px;
+	padding-top: 120px;
+
+	color: #bababa;
+
+	background: url(../img/footer_bg.jpg) center (center/cover) no-repeat;
+
+	h3 {
+		color: #ffffff;
+		font-size: 16px;
+		font-weight: 400;
+		text-transform: uppercase;
+
+		position: relative;
+
+		margin-bottom: 45px;
+
+		&::before {
+			content:"";
+			display: block;
+			height: 1px;
+			width: 24px;
+			background-color: $color_yellow;
+			position: absolute;
+
+			bottom: -16px;
+		}
+
+	}
+	
+	&__contacts {
+		margin: 45px 0 48px 0;
+		font-size: 14px;
+		line-height: 28px;
+	}
+
+	&__links {
+		@include reset-list;
+
+		font-size: 14px;
+
+		a {
+			color: #bababa;
+			text-decoration: none;
+		}
+		li {
+			margin-top: 25px;
+		}
+	}
+
+	&__wrapper {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+	}
+
+	&__menu {
+		width: 172px;
+	}
+}

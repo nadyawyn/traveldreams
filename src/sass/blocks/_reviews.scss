@@ -37,13 +37,21 @@
 	&__data {
 		display: flex;
 		flex-flow: row nowrap;
+		margin-top: 25px;
+		font-size: 12px;
+		color: #b9bbba;
+		font-weight: 600;
 		justify-content: space-between;
+
+		text-transform: uppercase;
 	}
 
 	&__share {
 		@include reset-list;
 		display: flex;
 		flex-flow: row nowrap;
+
+		margin-top: 30px;
 		
 		li {
 			display: block;
@@ -57,6 +65,18 @@
 			display: block;
 			height: 100%;
 			width: 100%;
+		}
+	}
+
+	&__text {
+		margin-top: 25px;
+		font-size: 15px;
+		color: #616161;
+		line-height: 25px;
+		h3 {
+			font-size: 20px;
+			font-weight: 400;
+			color: #333333;
 		}
 	}
 }

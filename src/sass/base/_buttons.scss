@@ -35,21 +35,21 @@
 		}
 
 		&_arrow {
-			padding-left: 30px;
+			padding-left: 16px;
 			position: relative;
 
 			&::before {
 				content: "";
 				display: inline-block;
-				width: 30px;
-				height: 16px;
+				width: 15px;
+				height: 6px;
 
 				position: absolute;
-				left: 30px;
-				top: 14px;
+				left: 35px;
+				top: 18px;
 
 
-				background: url(../icons/arrow-right.svg) center (center/cover) no-repeat;
+				background: url(../icons/arrow-right.png) center (center/cover) no-repeat;
 			}
 		}
 	}

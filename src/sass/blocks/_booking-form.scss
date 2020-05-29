@@ -18,6 +18,7 @@
 		height: 45px;
 		padding-top: 14px;
 
+		cursor: pointer;
 		text-align: center;
 
 		background: #ffffff;
@@ -36,7 +37,7 @@
 			color: #ffffff;
 		}
 	}
-	&__form {
+	&__form, &__tours, &__package {
 		width: 100%;
 		min-height: 188px;
 		background-color: #ececec;
@@ -56,6 +57,8 @@
 
 		}
 	}
+
+
 	&__fields {
 		width: 100%;
 		display: flex;
@@ -105,6 +108,13 @@
 
 		&:last-child {
 			margin-right: 0;
+		}
+	}
+	&__content {
+		display: none;
+
+		&_active {
+			display: block;
 		}
 	}
 }

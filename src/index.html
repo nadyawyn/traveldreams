@@ -71,11 +71,12 @@
 			<div class="container">
 				<ul class="booking-form__tabs">
 			<!-- TODO Add tab function with 3 different options -->
-					<li><a href="#" class="booking-form__tabs-item booking-form__tabs-item_active">Hotel</a></li>
-					<li><a href="#" class="booking-form__tabs-item">Tours</a></li>
-					<li><a href="#" class="booking-form__tabs-item">Package</a></li>
+					<li class="booking-form__tabs-item booking-form__tabs-item_active booking-form__tab_1">Hotel</li>
+					<li class="booking-form__tabs-item booking-form__tab_2">Tours</li>
+					<li class="booking-form__tabs-item booking-form__tab_3">Package</li>
 				</ul>
-				<div class="booking-form__form">
+				<div class="container">
+					<div class="booking-form__form booking-form__content booking-form__content_active">
 					<form id="booking-form" class="booking-form__fields" action="#">
 						<div class="booking-form__fields-wrapper">
 							<div class="booking-form__field-wrapper">
@@ -100,6 +101,14 @@
 						<button class="button button_submit">Search</button>
 					</form>
 				</div>
+				<div class="booking-form__tours booking-form__content">
+					Tours
+				</div>
+				<div class="booking-form__package booking-form__content">
+					Package
+				</div>
+				</div>
+				
 			</div>
 		</section>
 		<section class="slider">

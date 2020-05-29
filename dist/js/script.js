@@ -62,5 +62,18 @@ $(document).ready(function () {
 		]
 	});
 
+	// Booking Form Tabs
+
+	$('.booking-form__tabs-item').on('click', function () {
+		$(this)
+			.addClass('booking-form__tabs-item_active').siblings().removeClass('booking-form__tabs-item_active')
+			.closest('div.container').find('div.booking-form__content').removeClass('booking-form__content_active').eq($(this).index()).addClass('booking-form__content_active');
+	});
+
+
+	/* 	$('.booking-form__tabs-item').on('click', function () {
+			alert('123');
+		});
+	 */
 
 });  

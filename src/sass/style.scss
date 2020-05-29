@@ -8,6 +8,8 @@
 @import "base/buttons";
 @import "base/share";
 @import "base/social";
+@import "libs/slick";
+@import "libs/slick-theme";
 
 * {
 	box-sizing: border-box;
@@ -51,3 +53,4 @@
 @import "blocks/reviews";
 @import "blocks/video-block";
 @import "blocks/footer";
+@import "blocks/carousel";

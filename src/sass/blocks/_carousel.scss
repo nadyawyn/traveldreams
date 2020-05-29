@@ -105,3 +105,16 @@
 		background:url(../../img/most-popular_bg.jpg) center (center/cover) no-repeat;
 	}
 }
+
+.carousel3 {
+	&__content {
+		display: block;
+		height: 400px;
+		margin-top: 20px;
+	}
+	&__item {
+		display: block;
+		height: 400px;
+		width: 620px;
+	}
+}

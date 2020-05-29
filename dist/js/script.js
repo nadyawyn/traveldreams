@@ -21,7 +21,7 @@ $(document).ready(function () {
 	});
 
 	$('.carousel2__content').slick({
-		autoplay: false,
+		autoplay: true,
 		infinite: true,
 		dots: true,
 		arrows: false,

@@ -9,7 +9,7 @@
 		position: relative;
 		margin: 0 auto;
 		width: 1130px;
-		margin-left: 21px;
+		//margin-left: 21px;
 	}
 
 	&__item {
@@ -17,8 +17,8 @@
 		width: 370px;
 		height: 370px;
 		background-color: #ddd;
-		margin-right: 30px;
-
+		margin-right: 15px;
+		margin-left: 15px;
 		position: relative;
 
 		&_01 {
@@ -102,7 +102,15 @@
 	&__item {
 		display: block;
 		height: 580px;
-		background:url(../../img/most-popular_bg.jpg) center (center/cover) no-repeat;
+		&_1 {
+			background:url(../img/most-popular/most-popular-01.jpg) center (center/cover) no-repeat;
+		}
+		&_2 {
+			background:url(../img/most-popular/most-popular-02.jpg) center (center/cover) no-repeat;
+		}
+		&_3 {
+			background:url(../img/most-popular/most-popular-03.jpeg) center (center/cover) no-repeat;
+		}
 	}
 }
 

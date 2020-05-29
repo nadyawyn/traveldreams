@@ -4,6 +4,7 @@
 	&__content {
 		position: relative;
 		margin: 0 auto;
+		width: 1130px;
 	}
 
 	&__item {
@@ -13,10 +14,8 @@
 		background-color: #ddd;
 		margin-right: 30px;
 
-		&:first-child {
-			margin-left: 30px;
-		}
-		&:nth-child(3) {
+		
+		&_03 {
 			margin-right: 0;
 		}
 

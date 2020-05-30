@@ -64,7 +64,14 @@
 		width: 550px;
 		}
 	}
-
+	.most-popular {
+		&__subtitle {
+			font-size: 120px;
+		}
+		&__title {
+			top: 29px;
+		}
+	}
 	.honeymoon {
 		&__item {
 			width: 450px;
@@ -112,10 +119,34 @@
 		width: 550px;
 		}
 	}
+
+	.most-popular {
+		&__subtitle {
+			font-size: 100px;
+		}
+		&__title {
+			top: 24px;
+			font-size: 24px;
+		}
+		&__slider {
+			margin-top: 38px;
+		}
+	}
+	.desc {
+		margin-top: 10px;
+	}
 }
 
 @media(max-width: 830px) {
-
+	.most-popular {
+		&__subtitle {
+			font-size: 80px;
+		}
+		&__title {
+			top: 14px;
+			font-size: 24px;
+		}
+	}
 	.honeymoon {
 		&__item {
 			width: 100%;
@@ -128,6 +159,7 @@
 			width: 100%;
 		}
 	}
+	
 }
 
 @media(max-width: $tablet-width) {
@@ -219,6 +251,33 @@
 		}
 		
 	}
+	.most-popular {
+		&__subtitle {
+			font-size: 68px;
+			overflow: hidden;
+		}
+		&__title {
+			top: -7px;
+			font-size: 24px;
+		}
+		&__slider {
+			height: 530px;
+		}
+		&__overlay {
+			width: 310px;
+			h3 {
+				font-size: 20px;
+			}
+		}
+	}
+	.share-yellow {
+		margin-top: 42px;
+	}
+	.carousel2 {
+		&__item {
+			height: 530px;
+		}
+	}
 }
 
 @media(max-width: $mobile-width_l) {
@@ -228,6 +287,18 @@
 		&__title {
 			margin: 23px 0;
 			font-size: 32px;
+		}
+	}
+	.most-popular {
+		
+		&__slider {
+			height: 450px;
+		}
+		
+	}
+	.carousel2 {
+		&__item {
+			height: 450px;
 		}
 	}
 }

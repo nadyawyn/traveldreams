@@ -65,6 +65,30 @@
 			padding-right: 30px;
 		}
 	}
+
+	.booking-form {
+		&__fields-wrapper {
+			flex-flow: row wrap;
+			justify-content: flex-start;
+		}
+		&__field-wrapper {
+			flex-basis: 30%;
+			margin-right: 10px;
+
+			&:nth-child(4) {
+				margin-top: 20px;
+			}
+			
+		}
+		&__fields {
+			button {
+				top: 75px;
+				right: -42px;
+				width: 120px;
+				padding-top: 3px;
+			}
+		}
+	}
 }
 
 @media(max-width: 830px) {

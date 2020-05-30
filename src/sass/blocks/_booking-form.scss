@@ -44,11 +44,12 @@
 		position: relative;
 		padding-left: 70px;
 		padding-top: 55px;
+		padding-bottom: 55px;
 		&::before {
 			content: "";
 			display: block;
 			width: 26px;
-			height: 188px;
+			min-height: 100%;
 			background-color: $color_yellow;
 
 			position: absolute;

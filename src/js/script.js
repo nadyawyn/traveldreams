@@ -8,18 +8,16 @@ $(document).ready(function () {
 		slidesToShow: 3,
 		slidesToScroll: 2,
 		adaptiveHeight: false,
-		autoplaySpeed: 2000/* ,
+		autoplaySpeed: 2000,
 		responsive: [
 			{
-				breakpoint: 1230,
+				breakpoint: 768,
 				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 2,
-					dots: false,
-					arrows: false
+					slidesToShow: 1,
+					slidesToScroll: 1
 				}
 			}
-		] */
+		]
 	});
 
 	$('.carousel2__content').slick({

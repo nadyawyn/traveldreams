@@ -52,6 +52,19 @@
 		}
 
 	}
+
+	.slider {
+		padding-top: 50px;
+	}
+	.carousel {
+		&__content {
+			width: 970px;
+		}
+		&__item {
+		width: 550px;
+		}
+	}
+
 	.honeymoon {
 		&__item {
 			width: 450px;
@@ -87,6 +100,16 @@
 				width: 120px;
 				padding-top: 3px;
 			}
+		}
+	}
+
+	.carousel {
+		&__content {
+			//width: 700px;
+			width: 100%;
+		}
+		&__item {
+		width: 550px;
 		}
 	}
 }
@@ -168,7 +191,34 @@
 			}
 		}
 	}
+	.slider {
+		&__title, &__subtitle {
+			padding-left: 20px;
+		}
+		.container {
+			padding: 0;
+		}
+	}
+	.slick-dots {
+		width: 170px;
+	}
+	.slick-current {
 
+		.carousel__item-info {
+			height: 165px;
+			background: rgba($color: $color_yellow, $alpha: .8);
+	
+			padding-top: 48px;
+		}
+		.carousel__item-price {
+			display: block;
+	
+			width: 100%;
+			text-align: center;
+			color: #333333;
+		}
+		
+	}
 }
 
 @media(max-width: $mobile-width_l) {

@@ -30,6 +30,10 @@
 	}
 	a {
 		color: #bababa;
+		text-decoration: none;
+		&:hover {
+			text-decoration: none;
+		}
 	}
 	
 	&__contacts {

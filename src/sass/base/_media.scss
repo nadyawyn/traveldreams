@@ -228,6 +228,10 @@
 	.header {
 		height: 835px;
 		padding-top: 124px;
+
+		&__topline {
+			position: absolute;
+		}
 		&__wrapper {
 			flex-flow: row wrap;
 		}

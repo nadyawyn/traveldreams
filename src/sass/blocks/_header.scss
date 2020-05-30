@@ -131,7 +131,14 @@
 	}
 	&__phone {
 		font-size: 20px;
-		color: $color_yellow;
+		a {
+			color: $color_yellow;
+			text-decoration: none;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+		
 	}
 	&__title {
 		font-size: 48px;

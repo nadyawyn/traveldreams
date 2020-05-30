@@ -33,6 +33,25 @@
 		padding: 0 20px;
 	}
 
+	.booking-form {
+		.container {
+			padding: 0;
+		}
+		
+		&__form, &__tours, &__package {
+			padding-left: 55px;
+			padding-top: 25px;
+		}		
+		&__field-wrapper {
+			margin-right: 45px;
+		}
+		&__fields {
+			button {
+				top: 47px;
+			}
+		}
+
+	}
 	.honeymoon {
 		&__item {
 			width: 450px;

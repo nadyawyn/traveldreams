@@ -27,10 +27,23 @@
 }
 
 
-@media(max-width: $laptop-width) {
+@media(max-width: $laptop-width_m) {
+	.container {
+		width: 100%;
+		padding: 0 20px;
+	}
+
 	.honeymoon {
 		&__item {
 			width: 450px;
+		}
+	}
+}
+
+@media(max-width: $laptop-width_s) {
+	.header {
+		&__address {
+			padding-right: 30px;
 		}
 	}
 }

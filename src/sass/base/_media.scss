@@ -65,6 +65,26 @@
 }
 
 @media(max-width: $tablet-width) {
+	.header {
+		&__wrapper {
+			flex-flow: row wrap;
+		}
+		&__user-menu {
+			flex-basis: 100%;
+			margin-top: 20px;
+			justify-content: space-between;
+
+			flex-flow: row wrap;
+			.login {
+				padding-left: 0;
+			}
+		}
+		&__address {
+			padding: 0;
+			margin-left: 25px;
+			margin-bottom: 20px;
+		}
+	}	
 
 }
 

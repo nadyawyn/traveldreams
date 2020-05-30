@@ -104,6 +104,10 @@
 			width: auto;
 		}
 	}
+	.discount {
+		padding: 75px 0 100px 0;
+		min-height: 600px;
+	}
 }
 
 @media(max-width: $laptop-width_s) {
@@ -357,6 +361,18 @@
 		}
 		&__button {
 			margin-top: 20px;
+		}
+	}
+	.discount {
+		padding: 75px 0;
+		min-height: 515px;
+
+		.desc {
+			min-width: none;
+		}
+
+		&__figures {
+			width: 100%;
 		}
 	}
 }

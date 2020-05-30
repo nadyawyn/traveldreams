@@ -144,6 +144,31 @@
 		margin-top: 35px;
 	}
 
+	.booking-form {
+		&__fields-wrapper {
+			flex-flow: column nowrap;
+			justify-content: flex-start;
+
+			width: 90%;
+		}
+		&__field-wrapper {
+			flex-basis: 100%;
+			margin: 20px 0 0 0;
+			
+		}
+		&__fields {
+			input {
+				width: 90%;
+			}
+			button {
+				top: 190px;
+				right: -81px;
+				width: 196px;
+				padding-top: 3px;
+			}
+		}
+	}
+
 }
 
 @media(max-width: $mobile-width_l) {

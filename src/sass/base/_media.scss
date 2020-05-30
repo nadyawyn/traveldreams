@@ -66,6 +66,8 @@
 
 @media(max-width: $tablet-width) {
 	.header {
+		height: 835px;
+		padding-top: 124px;
 		&__wrapper {
 			flex-flow: row wrap;
 		}
@@ -84,12 +86,32 @@
 			margin-left: 25px;
 			margin-bottom: 20px;
 		}
+		&__book {
+			margin-top: 170px;
+		}
+		&__title {
+			font-size: 40px;
+			margin: 30px 0;
+		}
+		&__desc {
+			font-size: 14px;
+		}
 	}	
+	.button_rounded {
+		margin-top: 35px;
+	}
 
 }
 
-@media(max-width: $moblie-width_l) {
+@media(max-width: $mobile-width_l) {
+	.header {
+		padding-top: 140px;
 
+		&__title {
+			margin: 23px 0;
+			font-size: 32px;
+		}
+	}
 }
 
 @media(max-width: $mobile-width_m) {

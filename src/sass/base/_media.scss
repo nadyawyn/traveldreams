@@ -66,6 +66,7 @@
 	}
 	.most-popular {
 		&__subtitle {
+			width: 100%;
 			font-size: 120px;
 		}
 		&__title {
@@ -85,6 +86,22 @@
 		}
 		.slick-dots {
 			bottom: -35px;
+		}
+	}
+	.packages {
+		min-height: 615px;
+		padding: 100px 0;
+
+		&__wrapper {
+			justify-content: flex-start;
+		}
+
+		&__desc {
+			max-width: 400px;
+			margin-right: 40px;
+		}
+		&__photo {
+			width: auto;
 		}
 	}
 }
@@ -113,7 +130,7 @@
 		&__fields {
 			button {
 				top: 75px;
-				right: -42px;
+				right: -40px;
 				width: 120px;
 				padding-top: 3px;
 			}
@@ -144,6 +161,16 @@
 	}
 	.desc {
 		margin-top: 10px;
+	}
+
+	.packages {
+		&__desc {
+			min-width: 372px;
+			padding-top: 0;
+		}
+		&__photo img {
+			width: 100%;
+		}
 	}
 }
 
@@ -227,7 +254,7 @@
 			}
 			button {
 				top: 190px;
-				right: -81px;
+				right: -78px;
 				width: 196px;
 				padding-top: 3px;
 			}
@@ -262,6 +289,7 @@
 		
 	}
 	.most-popular {
+		margin-top: 120px;
 		&__subtitle {
 			font-size: 68px;
 			overflow: hidden;
@@ -311,6 +339,25 @@
 	}
 	.slick-dotted.slick-slider {
 		margin-bottom: 55px;
+	}
+	.packages {
+		padding: 0 0 20px 0;
+		&__wrapper {
+			flex-flow: column nowrap;
+		}
+		&__photo {
+			order: -1;
+		}
+		&__desc {
+			min-width: none;
+			margin-top: 20px;
+			h3 {
+				margin: 10px 0;
+			}
+		}
+		&__button {
+			margin-top: 20px;
+		}
 	}
 }
 

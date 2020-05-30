@@ -3,15 +3,10 @@
 	&__slider {
 		width: 100%;
 		overflow: hidden;
-		/* margin-top: 84px;
-		width: 100%;
-		overflow: hidden;
-
-		display: flex;
-		flex-flow: row nowrap; */
 	}
 	&__item {
 		display: block;
+		background-color: #fff;
 		width: 600px;
 		height: 358px;
 
@@ -83,12 +78,20 @@
 		width: 100%;
 		height: 50px;
 		text-align: center;
-		padding-top: 16px;
 
 		text-transform: uppercase;
 
 		background-color: $color_yellow;
 
 		color: #ffffff;
+
+		a {
+			padding-top: 16px;
+			display: block;
+			width: 100%;
+			height: 100%;
+			color: #fff;
+			text-decoration: none;
+		}
 	}
 }

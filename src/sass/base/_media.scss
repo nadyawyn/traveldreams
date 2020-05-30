@@ -1,0 +1,68 @@
+@media(max-width:$desktop-width) {
+	
+
+	.honeymoon {
+		&__item {
+			width: 500px;
+		}
+	}
+}
+
+@media(max-width: $laptop-width_l) {
+
+
+	.honeymoon {
+		&__item {
+			width: 450px;
+		}
+	}
+}
+
+@media(max-width: 1230px) {
+	.honeymoon {
+		&__item {
+			width: 600px;
+		}
+	}
+}
+
+
+@media(max-width: $laptop-width) {
+	.honeymoon {
+		&__item {
+			width: 450px;
+		}
+	}
+}
+
+@media(max-width: 830px) {
+
+	.honeymoon {
+		&__item {
+			width: 100%;
+
+			&-photo {
+				width: 670px;
+			}
+		}
+		&__wrapper {
+			width: 100%;
+		}
+	}
+}
+
+@media(max-width: $tablet-width) {
+
+}
+
+@media(max-width: $moblie-width_l) {
+
+}
+
+@media(max-width: $mobile-width_m) {
+
+}
+
+@media(max-width: $mobile-width_s) {
+
+}
